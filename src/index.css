@@ -11,7 +11,7 @@ color: var(--main-color);
 }
 @media screen and (max-width:576px) {
      p{
-    max-width: 350px;
+     max-width: 298px !important;
   }
 }
 .home{
