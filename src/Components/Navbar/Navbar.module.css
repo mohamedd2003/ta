@@ -1,0 +1,53 @@
+.logo {
+  color: #3ccafe;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+.bg_thunder {
+  background-color: #0a090a;
+}
+.main_link {
+  color: var(--main-color) !important;
+  font-family: "Poppins", sans-serif !important;
+  transition: all 1s !important;
+  font-size: 16px !important;
+}
+.main_link:hover {
+  transition: all 1s;
+  border-bottom: solid 1px var(--main-color) !important;
+
+  color: var(--main-color) !important;
+  font-size: 18px !important;
+}
+.link_color {
+  color: rgb(169, 169, 169) !important;
+  font-size: 16px !important;
+  font-family: "Poppins", sans-serif !important;
+  transition: all 1s !important;
+}
+.link_color:hover {
+  transition: all 1s;
+  border-bottom: solid 1px var(--main-color) !important;
+
+  color: var(--main-color) !important;
+  font-size: 18px !important;
+}
+@media screen and (max-width: 992px) {
+  .main_link:hover {
+    border-bottom: none !important;
+  }
+  .link_color:hover {
+    border-bottom: none !important;
+  }
+  .main_link {
+    text-align: center !important;
+    i {
+      text-align: center;
+    }
+  }
+  .link_color {
+    text-align: center !important;
+  }
+  .small_logo {
+    display: none !important;
+  }
+}
