@@ -20,7 +20,7 @@ export default function Home() {
 
       <section className="home position-relative ">
 
-        <video className={` ${style.video} h-100 `} src={video} loop muted autoPlay></video>
+        <video className={` ${style.video} h-100 `} src={video} loop muted playsInline autoPlay></video>
         <div className={` position-absolute  start-0 top-0 end-0 bottom-0    `}>
           <div className=' d-flex align-items-center h-100 '>
 
