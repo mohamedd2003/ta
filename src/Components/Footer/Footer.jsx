@@ -18,8 +18,8 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className={`${style.bg_right_footer} col-md-4   `}>
-            <div className={`${style.overlay} w-100 h-100  py-5  d-flex align-items-center justify-content-center`}  >
+          <div className={`${style.bg_right_footer} col-md-4 text-center  `}>
+            <div className={`${style.overlay_right} w-100 h-100  py-5  d-flex align-items-center justify-content-center`}  >
             <div className="contact">
               <h3 className={` ${style.pop_400}  ms-2  `}>Say Hello</h3>
              <a href='mailto:thunderagencyy@gmail.com' className=' fw-bold  mb-2 d-block text-decoration-none text-white  '>thunderagencyy@gmail.com</a>
