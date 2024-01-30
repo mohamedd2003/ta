@@ -1,4 +1,5 @@
 import React from 'react'
+import "@vercel/analytics"
 import style from './Home.module.css'
 import video from '../../assets/Videos/bgVideo.mp4'
 import aboutPic from '../../assets/Images/about-1.jpg'
