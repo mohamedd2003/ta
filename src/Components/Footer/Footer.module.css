@@ -56,6 +56,10 @@ background-size: cover;
 .overlay{
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+.overlay_right{
+        background-color: rgba(0, 0, 0, 0.8);
+}
 @media screen and (max-width:776px) {
     iframe{
         width: 200px !important;
