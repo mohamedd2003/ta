@@ -2,10 +2,13 @@ import React from 'react'
 import style from './Home.module.css'
 import video from '../../assets/Videos/bgVideo.mp4'
 import aboutPic from '../../assets/Images/about-1.jpg'
-import slide2 from '../../assets/Images/slide2.jpg'
-import slide3 from '../../assets/Images/slide3.jpg'
-import slide4 from '../../assets/Images/slide4.jpg'
 import hand from '../../assets/Images/hand.png'
+import CookiesSlider from '../../assets/Images/Slider/Cookies.jpg'
+import RadioSlider from '../../assets/Images/Slider/Radio90.jpg'
+import A2zSlider from '../../assets/Images/Slider/A2Z.jpg'
+import AvantiSlider from '../../assets/Images/Slider/Avanti.png'
+import ClincSlider from '../../assets/Images/Slider/clinc.jpg'
+import El3lamenSlider from '../../assets/Images/Slider/El3lamen.jpg'
 import Albagdady from '../../assets/Images/LOGO/Albaghdady.png'
 import Autovroom from '../../assets/Images/LOGO/Autovrooom.png'
 import Avanti from '../../assets/Images/LOGO/Avanti.png'
@@ -74,7 +77,7 @@ export default function Home() {
           <div className="row mt-5  mb-xl-5 ">
             <div className="col-lg-4 mb-xl-5  position-relative   ">
               <div className={`${style.pic}`}>
-                <img loading='lazy' src={aboutPic} className={` ${style.about_pic}   rounded-4 mt-md-5 `} alt="company" />
+                <img  src={aboutPic} className={` ${style.about_pic}   rounded-4 mt-md-5 `} alt="company" />
               
               </div>
             </div>
@@ -156,13 +159,13 @@ export default function Home() {
 
             </div>
               <div className='col-md-2 col-sm-3 col-6  py-3  ps-lg-5  '>
-                <img loading='lazy'  src={Phantom} className={`${style.phantom}`} alt="Logo" />
+                <img   src={Phantom} className={`${style.phantom}`} alt="Logo" />
               </div>
               <div className='col-md-2 col-sm-3 col-6  py-3    '>
-                <img loading='lazy' src={Autovroom} className='logo' alt="Logo" />
+                <img  src={Autovroom} className='logo' alt="Logo" />
               </div>
               <div className='col-md-2 col-sm-3 col-6  py-3    '>
-                <img loading='lazy' src={TRT} className='logo' alt="Logo" />
+                <img  src={TRT} className='logo' alt="Logo" />
               </div>
 
               
@@ -199,7 +202,7 @@ export default function Home() {
 
         </div>
       </section>
-      <section id='works' className=' mt-xl-3 pt-xl-4    '>
+      <section id={`${style.works}`} className=' mt-xl-3 pt-xl-4    '>
         <div className="container py-5 mt-5">
           <div className="row  ">
             <div className={`col-lg-5 ps-5 `}>
@@ -215,13 +218,14 @@ export default function Home() {
             modules={[EffectCards]}
             className="mySwiper"
           >
-            <SwiperSlide><img loading='lazy' src={slide4} alt="Logo" className='w-100 h-100 position-relative ' />
-            <div className={`overlay start-0 bottom-0 end-0 top-0 position-absolute  ` }><img loading='lazy' src={hand} className='fa-beat-fade w-25 '/> </div></SwiperSlide>
-            <SwiperSlide><img loading='lazy' src={slide2} alt="Logo" className='w-100 h-100 ' /></SwiperSlide>
-            <SwiperSlide><img loading='lazy' src={slide3} alt="Logo" className='w-100 h-100 ' /></SwiperSlide>
-            <SwiperSlide><img loading='lazy' src={slide4} alt="Logo" className='w-100 h-100 ' /></SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
+            <SwiperSlide><img  src={CookiesSlider} alt="Logo" className='w-100 h-100 position-relative ' />
+            <div className={`overlay start-0 bottom-0 end-0 top-0 position-absolute  ` }><img  src={hand} className='fa-beat-fade w-25 '/> </div></SwiperSlide>
+            <SwiperSlide><img  src={A2zSlider} alt="Logo" className='w-100 h-100 ' /></SwiperSlide>
+            <SwiperSlide><img loading='lazy' src={ClincSlider} alt="Logo" className='w-100 h-100 ' /></SwiperSlide>
+            <SwiperSlide><img loading='lazy' src={RadioSlider} alt="Logo" className='w-100 h-100 ' /></SwiperSlide>
+            <SwiperSlide><img loading='lazy' src={AvantiSlider} alt="Logo" className='w-100 h-100 ' /></SwiperSlide>
+            <SwiperSlide><img loading='lazy' src={El3lamenSlider} alt="Logo" className='w-100 h-100 ' /></SwiperSlide>
+            
             <SwiperSlide>Slide 7</SwiperSlide>
             <SwiperSlide>Slide 8</SwiperSlide>
             <SwiperSlide>Slide 9</SwiperSlide>
